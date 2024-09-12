@@ -1,11 +1,10 @@
+import Logo from "./Logo"
+
 const Navbar = () => {
     return (
       <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="#" className="flex items-center">
-            <img src="https://www.getinstachip.com/images/logo-p-500.png" className="h-8 w-8 mr-3 rounded-full border-2 border-white" alt="Instachip Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Instachip</span>
-          </a>
+         <Logo/>
           <div className="flex gap-2 md:order-2">
             <button type="button" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Download</button>
             <button type="button" className="text-purple-700 bg-white hover:bg-gray-100 border border-purple-700 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center ml-3 md:ml-0 dark:text-purple-400 dark:border-purple-400 dark:hover:bg-gray-700">Contact</button>
@@ -28,4 +27,4 @@ const Navbar = () => {
     )
   }
 
-export default Navbar
+  export default Navbar

@@ -1,7 +1,9 @@
 "use client"
 import React, { useEffect } from 'react';
 import { Terminal } from 'lucide-react';
-import Navbar from '@/component/ui/Navbar'
+import Logo from '@/component/ui/Logo';
+import Navbar from '@/component/ui/Navbar';
+
 
 
 const Home = () => {
